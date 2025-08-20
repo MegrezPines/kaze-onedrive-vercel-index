@@ -11,12 +11,11 @@ module.exports = {
   // The clientId and clientSecret are used to authenticate the user with Microsoft Graph API using OAuth. You would
   // not need to change anything here if you can authenticate with your personal Microsoft account with OneDrive International.
   clientId: '3b503a83-b8d8-4c47-affc-7dbac3e52164',
-  //clientId: '56d1ee8c-44f8-4b03-9782-1a1bd9a1156d',
   obfuscatedClientSecret: 'U2FsdGVkX1+rWQEq6zk7iV7UJxsW8ZbhwR02TYS9l9419+1WDkFweut5odslAokxeW7Ows4mA3gDjxgId6PU3Q==',
 
   // The redirectUri is the URL that the user will be redirected to after they have authenticated with Microsoft Graph API.
   // Likewise, you would not need to change redirectUri if you are using your personal Microsoft account with OneDrive International.
-  redirectUri: 'http://localhost',
+  redirectUri: 'https://plex.reyuugames.com/',
 
   // These are the URLs of the OneDrive API endpoints. You would not need to change anything here if you are using OneDrive International
   // or E5 Subscription OneDrive for Business. You may need to change these if you are using OneDrive 世纪互联.
